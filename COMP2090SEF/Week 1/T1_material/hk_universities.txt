@@ -1,0 +1,8 @@
+Lingnan University	LU
+The Chinese University of Hong Kong	CUHK
+The Education University of Hong Kong	EdUHK
+Hong Kong Baptist University	HKBU
+City University of Hong Kong	CityU
+The Hong Kong Polytechnic University	PolyU
+The Hong Kong University of Science and Technology	HKUST
+The University of Hong Kong	HKU

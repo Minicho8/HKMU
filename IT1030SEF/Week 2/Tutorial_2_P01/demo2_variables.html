@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Demo 2: Variables & Arithmetic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        .instruction {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .output {
+            background: #e7f3ff;
+            padding: 20px;
+            border-left: 4px solid #007bff;
+            font-family: 'Courier New', monospace;
+            line-height: 1.8;
+        }
+        code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📦 Demo 2: Variables & Arithmetic Operations</h1>
+        
+        <div class="instruction">
+            <h3>🔧 Try This Live!</h3>
+            <p><strong>Edit the script below (lines 52-61) to experiment with variables:</strong></p>
+            <ul>
+                <li>Change initial variable values (line 53)</li>
+                <li>Try different arithmetic operations (+, -, *, /)</li>
+                <li>See how undefined variables behave</li>
+            </ul>
+        </div>
+
+        <h3>📋 Output:</h3>
+        <div class="output">
+<script>
+    var firstNumber, secondNumber;
+    firstNumber = 10;
+    document.write("Task 2-1: secondNumber = " , secondNumber);
+    firstNumber = firstNumber + 20;
+    document.write("<br>Task 2-2: firstNumber = " , firstNumber);
+    secondNumber = firstNumber - 15;
+    document.write("<br>Task 2-3: (firstNumber - secondNumber) = " , (firstNumber - secondNumber));
+    secondNumber = firstNumber;
+    document.write("<br>Task 2-4: (firstNumber + secondNumber) = " , (firstNumber + secondNumber));
+</script>
+        </div>
+
+        <div class="instruction">
+            <h3>💡 What's Happening?</h3>
+            <p><strong>Variables</strong> store values that can be used and changed in your program.</p>
+            <ul>
+                <li><code>var</code> declares a variable</li>
+                <li>Undefined variables show as <code>undefined</code></li>
+                <li>Use <code>=</code> to assign values</li>
+                <li>Arithmetic: <code>+</code> (add), <code>-</code> (subtract), <code>*</code> (multiply), <code>/</code> (divide)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
